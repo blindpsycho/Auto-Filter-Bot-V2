@@ -22,7 +22,7 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/movieTOwn007")
+                            "⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/MJ_MOVIESCHAT")
                     ]
                 ]
             ),
@@ -45,7 +45,7 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/amzmtaccountt")
+                            "⭕️ SUPPORT ⭕️", url="https://t.me/mt_bot_support")
                     ]
                 ]
             ),
@@ -68,7 +68,7 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://t.me/amzmtaccountt")
+                            "SOURCE CODE", url="https://t.me/mt_bot_support")
                     ]
                 ]
             ),
