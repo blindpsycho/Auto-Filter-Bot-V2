@@ -169,7 +169,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/joinchat/a6lQUoAoUVg4NzM1")]
+                [InlineKeyboardButton("⭕️ JOIN OUR GROUP ⭕️", url="https://t.me/MJ_MOVIESCHAT")]
             ])
 
             await query.message.edit_text(
@@ -184,7 +184,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/amzmtaccount")]
+                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/mt_bot_support")]
             ])
 
             await query.message.edit_text(
@@ -199,7 +199,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data")],
-                [InlineKeyboardButton("SOURCE CODE",  url="https://t.me/amzmtaccount")]
+                [InlineKeyboardButton("SOURCE CODE",  url="https://t.me/mt_bot_support")]
             ])
 
             await query.message.edit_text(
